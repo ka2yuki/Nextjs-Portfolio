@@ -1,9 +1,6 @@
 # Version
-pakege-lock.json
-```js
-    "node_modules/next": {
-      "version": "13.4.4",
-```
+    "next": "13.4.4"
+
 # Next13キャッチアップ注意点
 - [Nextjs13リリース: October 26th 2022.](https://nextjs.org/blog/next-13)
   1. ディレクトリ構成の変更
