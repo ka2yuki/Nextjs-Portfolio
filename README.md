@@ -1,3 +1,15 @@
+# Version
+pakege-lock.json
+```js
+    "node_modules/next": {
+      "version": "13.4.4",
+```
+# Next13キャッチアップ注意点
+- [Nextjs13リリース: October 26th 2022.](https://nextjs.org/blog/next-13)
+  1. ディレクトリ構成の変更
+  2. Server Components(React)
+  3. etc..
+---
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
