@@ -1,5 +1,5 @@
-# Version
-    "next": "13.4.4"
+# URL
+https://portfolio-five-puce-62.vercel.app/
 
 # Next13キャッチアップ注意点
 - [Nextjs13リリース: October 26th 2022.](https://nextjs.org/blog/next-13)
