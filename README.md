@@ -12,6 +12,8 @@ https://portfolio-five-puce-62.vercel.app/
 - from: https://github.com/ka2yuki/Nextjs-Portfolio/commit/6f4aada96bc7f8b36b89500bd36506eb982f061e
 - to  : https://github.com/ka2yuki/Nextjs-Portfolio/commit/fdcb2975fe863bfd6be37977d5b18c91531f19bc
 
+戻し方不明：23'06/16
+
 ---
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
