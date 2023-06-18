@@ -1,6 +1,13 @@
 # URL
 https://portfolio-five-puce-62.vercel.app/
 
+# Todo
+トップページ
+　∟ 自己紹介ページ(参加プロジェクト、自身の技術など整理)
+　∟ ポートフォリオページ
+　∟ 問い合わせページ(フォーム、リキャプチャ設定も)
+
+
 # Next13キャッチアップ注意点
 - [Nextjs13リリース: October 26th 2022.](https://nextjs.org/blog/next-13)
   1. ディレクトリ構成の変更
