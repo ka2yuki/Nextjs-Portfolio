@@ -13,20 +13,20 @@ children: React.ReactNode
   return (
     <CacheProvider>
       <ChakraProvider>
-        {/* <Grid
+        <Grid
           templateAreas={
           `"header header"
           "nav main"
           "nav footer"`}
-          // gridTemplateRows={'50px 1fr 30px'}
-          // gridTemplateColumns={'150px 1fr'}
-          // h='200px'
+          gridTemplateRows={'50px 1fr 30px'}
+          gridTemplateColumns={'150px 1fr'}
+          h='200px'
           gap='1'
-          // color='blackAlpha.700'
+          color='blackAlpha.700'
           fontWeight='bold'
-        >  */}
+        > 
         {children}
-        {/* </Grid> */}
+        </Grid>
       </ChakraProvider>
     </CacheProvider>
   );

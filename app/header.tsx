@@ -1,27 +1,47 @@
 "use client";
 
 import Link from 'next/link';
-import { GridItem } from '@chakra-ui/react';
+import { GridItem, Stack } from '@chakra-ui/react';
 import { Button, ButtonGroup } from '@chakra-ui/react'
 
 const header = () => {
+  const listStyle = {
+    listStyle: 'none',
+  };
+
   return (
-    // <GridItem pl='2' bg='orange.300' area={'header'}>
+    <GridItem pl='2' bg='orange.300' area={'header'}>
       <nav className="p-2">
-        <ul className="flex items-center space-x-2">
+        <Stack as={'ul'} direction={'row'} spacing='24px'
+          style={listStyle}
+        >
+          {/* <ul className="flex items-center space-x-2"> */}
           <li>
-            <img src="/vercel.svg" className="w-32" />
+            <Link href="/">
+              <Button colorScheme='teal' variant='outline'>
+                Button
+              </Button>
+            </Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/about">
+              <Button colorScheme='teal' variant='outline'>
+                About
+              </Button>
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">
+              {/* <Button  className='bg-sky-500'> */}
+              <Button colorScheme='teal' variant={'outline'}>
+                About
+              </Button>
+            </Link>
           </li>
-        </ul>
-        <Button colorScheme='teal' size='lg'>test</Button>
+          {/* </ul> */}
+        </Stack>
       </nav>
-    // </GridItem>
+    </GridItem>
   );
 };
 
