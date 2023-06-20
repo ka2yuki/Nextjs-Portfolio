@@ -1,6 +1,5 @@
 # URL
-- https://portfolio-five-puce-62.vercel.app/
-- https://portfolio-mori1103k.vercel.app
+- https://portfolio-mori.vercel.app/
 
 # Todo
 トップページ
