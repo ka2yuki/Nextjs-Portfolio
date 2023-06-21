@@ -28,30 +28,22 @@ const header = () => {
         <Stack as={'ul'} direction={'row'} spacing='24px'
           style={listStyle}
         >
-          {/* <ul className="flex items-center space-x-2"> */}
           <li>
             <Link href="/">
-              <Button colorScheme='teal' variant='outline'>
-                HOME
-              </Button>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <Button colorScheme='teal' variant='outline'>
-                About
-              </Button>
+              <Button colorScheme='gray'>About</Button>
             </Link>
           </li>
           <li>
             <Link href="/portfolio">
               {/* <Button  className='bg-sky-500'> */}
-              <Button colorScheme='teal' variant={'outline'}>
-                Works
-              </Button>
+              <Button colorScheme='gray'>Works</Button>
             </Link>
           </li>
-          {/* </ul> */}
+          <li>
+            <Link href="/contact">
+              <Button colorScheme='gray'>Contact</Button>
+            </Link>
+          </li>
         </Stack>
       </nav>
     </GridItem>
