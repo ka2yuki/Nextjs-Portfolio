@@ -15,7 +15,7 @@ children: React.ReactNode
     <CacheProvider>
       <ChakraProvider>
         <Header />
-        <Container as={'main'} maxW='container.sm' color='#262626'>
+        <Container as={'main'} maxW='container.sm' color='#262626' bg={''}>
           {children}
         </Container>
       </ChakraProvider>
